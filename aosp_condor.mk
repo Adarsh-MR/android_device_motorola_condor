@@ -1,7 +1,7 @@
 $(call inherit-product, device/motorola/condor/full_condor.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common AOSPB stuff.
+$(call inherit-product, vendor/aospb/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_condor

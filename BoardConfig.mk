@@ -43,3 +43,5 @@ TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_condor.cpp
 
 BOARD_SEPOLICY_DIRS += \
     device/motorola/condor/sepolicy
+
+ANDROID_COMPILE_WITH_JACK := false

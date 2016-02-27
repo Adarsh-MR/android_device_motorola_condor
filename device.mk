@@ -36,6 +36,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcondor
 
+# lib
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/lib/libmemalloc.so:system/lib/libmemalloc.so
+ 	
+	
 # Stlport
 PRODUCT_PACKAGES += \
     libstlport

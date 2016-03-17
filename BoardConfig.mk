@@ -41,5 +41,8 @@ TARGET_OTA_ASSERT_DEVICE := xt1021,xt1022,xt1023,condor_umts,condor_umtsds,condo
 # Init
 TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_condor.cpp
 
+# jack
+ANDROID_COMPILE_WITH_JACK := false
+
 BOARD_SEPOLICY_DIRS += \
     device/motorola/condor/sepolicy
